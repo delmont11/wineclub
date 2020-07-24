@@ -1,61 +1,7 @@
+/* Página de contacto */
 body {
     font-family: 'Open Sans', 'sans-serif';
 }
-
-/* ESTOS SON LOS COLORES PRINCIPALES DE LA NUEVA PALETA */
-
-.color-primario {
-    color: #D7443F;
-}
-
-.color.secundario {
-    color: #485058;
-}
-
-
-
-.bg-primario {
-    background-color: #D7443F;
-}
-.bg.secundario {
-    background-color: #485058;
-}
-
-a:hover {
-  color: #D7443F;
-  }
-
-/* ESTILOS DEL NAVBAR */
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    }
-    
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    z-index: 1;
-        
-    }
-        
-.dropdown:hover .dropdown-menu {display:block;}
-        
-.form-inline {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-    }
-        
-.dropdown-item:active{
-    background-color: white;
-    color: black;
-    }
-
-
-
-        
-/* Página de contacto */
 .jumbotron {
     background-color: #485058;
     box-shadow: 0px 0px 10px 0px grey;
@@ -88,14 +34,10 @@ a:hover {
     font-family: 'Open Sans';
     font-weight: 500;
 }
-/* 
-    comenté esta propiedad,
-
-
-    .btn {
+.btn {
     margin-top: 15px;
     background-color: #333A42;
-} */
+}
 .p {
     font-weight: 500;
     color: #333a42;
@@ -104,14 +46,10 @@ h3 {
     font-weight: 700;
 }
 /* Página de error */
-/* body {
+body {
     background-color:#f1ece9 ;
-} */
+}
 .img {
     margin-top: 68px;
     box-shadow: 0px 0px 10px 0px grey;  
-}
-
-.section {
-    margin-top: 200px;
 }
