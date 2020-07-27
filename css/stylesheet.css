@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+   background: whitesmoke
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width:  100%;
+    padding: 0px;
+    
+
+   
+    
+}
+.formulario{
+    background: #fff;
+    margin-top: 10px;
+    padding: 3px;
+   
+    
+}
+h1{
+    text-align: center;
+    color: #333A42;
+    font-size: 20px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 15px;
+    width: 80%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 5px;
+    border: 1px solid #aaa;
+    
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #485058;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: #D7443F;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #485058;
+    font-weight: 600;
+}
+.link:hover{
+     color: #D7443F;
+
+}
+
+.checkbox{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+  }
+
+@media screen and (min-width:480px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+   
+
+}
+
+@media screen and (min-width:480px)
+{ 
+    img{
+        flex-wrap: wrap;
+        display:block;
+        margin:auto;
+        margin-top: 15px;
+        width: 300px;
+        box-sizing: border-box;
+        justify-content: center;
+        }
+}
+
+.section {
+    margin-top: 270px;
+    margin-bottom: 50px;
+}
+
+/* ESTILOS DEL NAVBAR */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    }
+    
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+        
+    }
+        
+.dropdown:hover .dropdown-menu {display:block;}
+        
+.form-inline {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    }
+        
+.dropdown-item:active{
+    background-color: white;
+    color: black;
+    }
+
+
