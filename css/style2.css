@@ -1,9 +1,9 @@
 body {
     font-family: 'Open Sans', 'sans-serif';
-    padding-top: 110px;
+    padding-top: 140px;
 }
 
-
+/* ANIMACIÓN DE LAS ÚLTIMAS ENTRADAS */
 .card{
     border: #fff;
     }
@@ -196,13 +196,15 @@ body {
     #image-3 {
         max-width: 100%;
     }
+    /* ANIMACIÓN DE LAS ÚLTIMAS ENTRADAS */
 
-    .nav-link:active {
-        border-bottom: 2px solid #88b2ff;
-    }
 
+
+
+    /* ESTILOS DE LOGIN */
     .div-loguin {
         padding: 50px 0;
+        background-color: rgba(241, 236, 233, 0.4);
     }
 
     .input-login {
@@ -213,5 +215,12 @@ body {
     .boton-login {
         color: white;
     }
+    /* ESTILOS DE LOGIN */
 
+
+
+
+    .arg{
+      width: 20px;
+  }
     
