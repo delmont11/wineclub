@@ -7,6 +7,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <!-- Aqui se agrega el favicon -->
 
+  <!-- FUENTE -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+
   <!-- Favicon -->
   <link rel="shortcut icon" href="img/favico.png" type="image/jpeg">
 
@@ -33,81 +38,83 @@
 </head>
 <body>
       <!-- BARRA DE NAVEGACIÓN -->
-      <header>
-    <!-- NAVBAR -->
-    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-white flex-column p-0">
-    
-    <div class="container">
-    <!--LOGO-->
-    <a class="navbar-brand" href="index.html">
-    <img src="img/logo.png" width="75" class="d-inline-block align-center" alt="logo">
-    </a>
-    <!--FORM BUSQUEDA-->
-    <form class="form-inline d-none d-sm-none d-md-none d-lg-inline m-auto">
-    <input class="form-control mr-auto col-auto" type="search" placeholder="¿Que vino buscas?" aria-label="Search">
-    <button class="btn btn-sm btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-    </form>
-    <!--TOGGLER BTN-->
-    <div class>
-    <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-img"> <img  src="https://b3h2.scene7.com/is/image/BedBathandBeyond/132051862283571p" width="40" height="40" alt="copa"></span> 
-    </button>
-    <!-- <div class="d-block d-lg-none d-md-none  text-center">Menu</div> -->
-    </div>
-    
-      <!--COLLAPSE MENU ITEMS-->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto text-center bg-white">
-            <li class="nav-item">
-               <a class="nav-link" href="#">Acerca de nosotros<span class="sr-only">(current)</span></a>
-           </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact-us.html">Contacto</a>
-            </li>
-             <li class="nav-item">
-               <a class="nav-link" href="LOGIN.html">Login</a>
-            </li>
-            </ul>
-      </div>  
-    </div>
-    
-      <!-- NAVBAR BOTTOM - LINKS-->
-    <div class="container mt-sm-3">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav m-auto text-center bg-white ">
-    <li class="nav-item px-4">
-    <a class="nav-link active" href="index.html">Inicio</a>
-    </li>
-    <li class="nav-item dropdown text-center text-dark px-4">
-    <a class="nav-link dropdown-toggle" href="#" id="hdp" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Categorías
-    </a>
-    <div class="dropdown-menu text-center" aria-labelledby="hdp">
-    <a class="dropdown-item" href="#">Tintos</a>
-    <a class="dropdown-item" href="#">Blancos</a>
-    <a class="dropdown-item" href="#">Espumantes</a>
-    <a class="dropdown-item" href="#">Premiados</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Todos</a>
-    </div>
-    </li>
-    <li class="nav-item px-4">
-    <a class="nav-link" href="#">Galería de imágenes<span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item px-4">
-    <a class="nav-link" href="entradas-blog.html">Novedades</a>
-    </li>
-    </ul>
-    </div>
-    </div>
-    </nav>
-    
-      </header>
+    <header>
+      <!-- NAVBAR -->
+      <nav class="navbar fixed-top navbar-expand-md navbar-light bg-white flex-column p-0">
+      
+
+        <!-- NAVBAR ARRIBA -->
+      <div class="container">
+      <!--LOGO-->
+      <a class="navbar-brand" href="index.html">
+      <img src="img/logo.png" style="height: 55px; margin: 3px;" class="d-inline-block align-center" alt="logo">
+      </a>
+      <!--FORM BUSQUEDA-->
+      <form class="form-inline d-none d-sm-none d-md-none d-lg-inline m-auto">
+      <input class="form-control mr-0" style="height: 32px;" type="search" placeholder="¿Que vino buscas?" aria-label="Search">
+      <button class="btn btn-sm bg-primario text-white ml-0" type="submit">Buscar</button>
+      </form>
+      <!--TOGGLER BTN-->
+      <div class>
+      <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-img"> <img  src="https://b3h2.scene7.com/is/image/BedBathandBeyond/132051862283571p" width="40" height="40" alt="copa"></span> 
+      </button>
+      </div>
+      
+      
+        <!--COLLAPSE MENU ITEMS-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-1 text-center bg-white">
+              <li class="nav-item">
+                 <a class="nav-link nav-link2" href="#about-us">Acerca de nosotros<span class="sr-only">(current)</span></a>
+             </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link2" href="contact-us.html">Contacto</a>
+              </li>
+               <li class="nav-item">
+                 <a class="nav-link nav-link2" href="LOGIN.html">Login</a>
+              </li>
+              </ul>
+        </div>  
+      </div>
+      <hr class="m-0" style="border: 1px solid rgba(0,0,0,0.2); width: 100%;">
+        <!-- NAVBAR BOTTOM - LINKS  ABAJO-->
+      <div class="container-fluid">
+      <div class="collapse navbar-collapse d-md-flex justify-content-md-around" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto text-center bg-white ">
+      <li class="nav-item px-4">
+      <a class="nav-link mx-sm-4 active" href="index.html">Inicio</a>
+      </li>
+      <li class="nav-item dropdown text-center text-dark px-4">
+      <a class="nav-link mx-sm-4 dropdown-toggle" href="#" id="hdp" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Categorías
+      </a>
+      <div class="dropdown-menu text-center" aria-labelledby="hdp">
+      <a class="dropdown-item" href="#">Tintos</a>
+      <a class="dropdown-item" href="#">Blancos</a>
+      <a class="dropdown-item" href="#">Espumantes</a>
+      <a class="dropdown-item" href="#">Premiados</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Todos</a>
+      </div>
+      </li>
+      <li class="nav-item px-4">
+      <a class="nav-link mx-sm-4" href="#">Galería de imágenes<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item px-4">
+      <a class="nav-link mx-sm-4" href="entradas-blog.html">Novedades</a>
+      </li>
+      </ul>
+      </div>
+      </div>
+      </nav>
+      
+  </header>
 
 
       <!-- PAGINA DE CONTACTO -->
       <div class="contact-page">
-    <div class="jumbotron text-center jumbotron-fluid">
+    <div class="jumbotron text-center jumbotron-fluid mb-0">
         <div class="container-fluid">
           <h1 class="display-4 text-light">¿Como contactarse con nosotros?<br>
           <div class="text-contactus">
@@ -115,23 +122,25 @@
         </div>
         </div>
       </div>
-
-     <div class="location-map text-center py-5">
-     <h3 class="text-center text-uppercase">Nuestra sucursal:</h3>
-     <br>
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.102220299916!2d-65.2093904851186!3d-26.836700883160397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1595553408518!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-     </div>
-     <br>
-    
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-6 px-0">
+              <div class="location-map text-center py-5 px-2">
+              <h3 class="text-center text-uppercase m-0">Encontranos aquí:</h3>
+              <br>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.102220299916!2d-65.2093904851186!3d-26.836700883160397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1595553408518!5m2!1ses!2sar"  style="border:0; width: 100%; height: 450px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 pt-2">
      <section class="contact-form">
       <div class="container text-center">
-     <h3 class="form-heading text-uppercase">Contáctanos</h3>
-     <h5 class="text-muted">Nos gustaría conocer tu opinión sobre la marca para seguir mejorando nuestro servicio.</h3>
+     <h3 class="form-heading text-uppercase pt-1">Contáctanos</h3>
+     <h5 class="text-muted mt-4">Nos gustaría conocer tu opinión sobre Wine Club para seguir mejorando nuestro servicio.</h3>
      <br>
      <form id="contactForm" name="sentMessage" novalidate="novalidate">
      <div class="row justify-content-center">
-        <div class="col-md-6 col-lg-6">
-            <div class="form-group">
+        <div class="col-md-8 col-lg-8 div-form-control">
+            <div class="form-group div-form-control">
                 <input class="form-control" id="name" type="text" placeholder="Nombre" required="required" data-validation-required-message="Por favor, ingrese su nombre.">
                 <p class="help-block text-danger"></p>
                
@@ -147,12 +156,16 @@
           </div>
         </div>
      </div>
+     </section>
     
      <div class="text-center">
         <div id="success"></div>
         <button class="btn bg-primario text-white btn-xl" id="sendMessageButton" type="submit">Enviar mensaje</button>
      </div>
+     </div>
      </form>
+     </div>
+     </div>
       </div>
        
  

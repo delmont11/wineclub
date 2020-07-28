@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- FUENTE -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     
 
     <!-- Favicon -->
@@ -43,49 +46,51 @@
         <!-- NAVBAR -->
         <nav class="navbar fixed-top navbar-expand-md navbar-light bg-white flex-column p-0">
         
+
+          <!-- NAVBAR ARRIBA -->
         <div class="container">
         <!--LOGO-->
         <a class="navbar-brand" href="index.html">
-        <img src="img/logo.png" width="75" class="d-inline-block align-center" alt="logo">
+        <img src="img/logo.png" style="height: 55px; margin: 3px;" class="d-inline-block align-center" alt="logo">
         </a>
         <!--FORM BUSQUEDA-->
         <form class="form-inline d-none d-sm-none d-md-none d-lg-inline m-auto">
-        <input class="form-control mr-auto col-auto" type="search" placeholder="¿Que vino buscas?" aria-label="Search">
-        <button class="btn btn-sm btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        <input class="form-control mr-0" style="height: 32px;" type="search" placeholder="¿Que vino buscas?" aria-label="Search">
+        <button class="btn btn-sm bg-primario text-white ml-0" type="submit">Buscar</button>
         </form>
         <!--TOGGLER BTN-->
         <div class>
         <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-img"> <img  src="https://b3h2.scene7.com/is/image/BedBathandBeyond/132051862283571p" width="40" height="40" alt="copa"></span> 
         </button>
-        <!-- <div class="d-block d-lg-none d-md-none  text-center">Menu</div> -->
         </div>
+        
         
           <!--COLLAPSE MENU ITEMS-->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto mb-1 text-center bg-white">
                 <li class="nav-item">
-                   <a class="nav-link" href="#">Acerca de nosotros<span class="sr-only">(current)</span></a>
+                   <a class="nav-link nav-link2" href="#about-us">Acerca de nosotros<span class="sr-only">(current)</span></a>
                </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact-us.html">Contacto</a>
+                  <a class="nav-link nav-link2" href="contact-us.html">Contacto</a>
                 </li>
                  <li class="nav-item">
-                   <a class="nav-link" href="LOGIN.html">Login</a>
+                   <a class="nav-link nav-link2" href="LOGIN.html">Login</a>
                 </li>
                 </ul>
           </div>  
         </div>
-        
-          <!-- NAVBAR BOTTOM - LINKS-->
-        <div class="container ">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <hr class="m-0" style="border: 1px solid rgba(0,0,0,0.2); width: 100%;">
+          <!-- NAVBAR BOTTOM - LINKS  ABAJO-->
+        <div class="container-fluid">
+        <div class="collapse navbar-collapse d-md-flex justify-content-md-around" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto text-center bg-white ">
         <li class="nav-item px-4">
-        <a class="nav-link active" href="#">Inicio</a>
+        <a class="nav-link mx-sm-4 active" href="index.html">Inicio</a>
         </li>
         <li class="nav-item dropdown text-center text-dark px-4">
-        <a class="nav-link dropdown-toggle" href="#" id="hdp" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link mx-sm-4 dropdown-toggle" href="#" id="hdp" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Categorías
         </a>
         <div class="dropdown-menu text-center" aria-labelledby="hdp">
@@ -98,10 +103,10 @@
         </div>
         </li>
         <li class="nav-item px-4">
-        <a class="nav-link" href="#">Galería de imágenes<span class="sr-only">(current)</span></a>
+        <a class="nav-link mx-sm-4" href="#">Galería de imágenes<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item px-4">
-        <a class="nav-link" href="entradas-blog.html">Novedades</a>
+        <a class="nav-link mx-sm-4" href="entradas-blog.html">Novedades</a>
         </li>
         </ul>
         </div>
@@ -114,28 +119,32 @@
 
     <!-- CARROUSEL -->
     <section class="slider-hero">
+      <div class="div-text-carousel d-flex flex-column justify-content-center text-center">
+        <div class="d-flex justify-content-center align-self-center">
+          <h1 class="d-none d-sm-none d-md-block h1-carousel">
+            WINE
+          </h1>
+          <h1 class="d-none d-sm-none d-md-block h1-carousel2 color-primario">
+            CLUB
+          </h1>
+        </div>
+        <h4 class="h4-carousel d-none d-sm-none d-md-none d-lg-block">
+          Sabores de las alturas
+        </h4>
+      </div>
         <div id="mycarousel" class="carousel slide" data-ride="carousel">
          <div class="carousel-inner">
            <div class="carousel-item active d-flex align-self-center">
              <img src="img/copa - copia.jpg" class="d-block w-100" alt="copa">
-             <div class="carousel-caption d-none d-md-block">
-               <h5>First slide label</h5>
-               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-             </div>
+             
            </div>
            <div class="carousel-item">
              <img src="img/uvass - copia.jpg" class="d-block w-100" alt="uvas">
-             <div class="carousel-caption d-none d-md-block">
-               <h5>Second slide label</h5>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-             </div>
+             
            </div>
            <div class="carousel-item">
              <img src="img/vinotec - copia.jpg" class="d-block w-100" alt="vinoteca">
-             <div class="carousel-caption d-none d-md-block">
-               <h5>Third slide label</h5>
-               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-             </div>
+             
            </div>
          </div>
          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -178,7 +187,7 @@
                         <figcaption>
                           <p>Es el club de vinos con mayor cantidad de socios en el país.</p>
                         </figcaption>
-                        <a href="error404.html"></a>
+                        <a href="#"></a>
                 </div>
               </div> 
               <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
@@ -194,7 +203,7 @@
                         <figcaption>
                           <p>Wine club te invita a disfrutar y aprender de la cultura de los vinos a través de visitas guiadas a bodegas locales. </p>
                         </figcaption>
-                        <a href="#TodasEnt"></a>
+                        <a href="entradas-blog-ejemplo.html"></a>
                 </div>
               </div> 
               <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
@@ -219,8 +228,8 @@
   
       <!--formulario & anuncio-->
       <div class="col-md-3 div-form">
-        <div class="row">
-            <div class="col-12">
+
+          
         <h5 class="text-center py-3 mt-4">Buscador con filtro</h5>
         <form>
             <div class="form-group">
@@ -241,21 +250,20 @@
         
         
         <button type="button" class="btn bg-primario text-white btn-lg btn-block mt-4 mb-3">Buscar</button>
-        <br>
-    </div>
-        <div class="col-12">
-          <div id="mainwrapper" class="d-none d-sm-none d-md-block align-self-center">
+
+
+        
+          <div id="mainwrapper" class="d-none d-sm-none d-md-none d-lg-block align-self-center">
               <div id="box-3" class="box text-center">
                   <img id="image-3 img-fluid" src="https://image.freepik.com/foto-gratis/alta-vista-botellas-vino-fondo-negro_23-2148243119.jpg"/>
                   <span class="caption fade-caption">
                   <h4>Agregá tu vinoteca!</h4>
                   <br>
-                  <p> Una vez plublicado el anuncio, estaras en la seccion principal!</p>
+                  <p class="d-none d-sm-none d-md-block"> Una vez plublicado el anuncio, estaras en la seccion principal!</p>
                   </span>
               </div> 
               </div>
-            </div>
-          </div>
+            
       </div>
   </div>
   <div class="about">
@@ -263,8 +271,8 @@
     <div class="Col-12">
     <h2 class="h2 text-center"> Bodegas, selecciones, cultura y más</h2>
       <br>
-    <p> Los vinos caseros tienen historia, y nosotros te la contamos. Bebé las selecciones que nuestros expertos han hecho y viví la cultura del vino.</p>
-    <a href="#"  class="Entradas">Ver más</a>
+    <p class="d-none d-sm-none d-md-block"> Los vinos caseros tienen historia, y nosotros te la contamos. Bebé las selecciones que nuestros expertos han hecho y viví la cultura del vino.</p>
+    <a href="error404.html"  class="Entradas">Ver más</a>
   </div>
   </div>
   </div>
@@ -352,10 +360,11 @@
     
      
     <!-- ABOUT US -->
-    <div class="about">
-      <p class="h2 text-center"> ACERCA DE NOSOTROS</p>
+    <div class="about" id="about-us">
+      <p class="h2 text-center"> ACERCA DE NOSOTROS</p></div>
 
-<div class="container ADN text-center"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex voluptates tenetur suscipit facilis pariatur impedit tempore commodi dolorum consectetur odit dolore, laboriosam, voluptas error quo iste temporibus optio repellendus deleniti!</div>
+      <div class="about">
+      <div class="container ADN text-center"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex voluptates tenetur suscipit facilis pariatur impedit tempore commodi dolorum consectetur odit dolore, laboriosam, voluptas error quo iste temporibus optio repellendus deleniti!</div>
 
 <br>
 <br>
