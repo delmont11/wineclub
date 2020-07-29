@@ -12,7 +12,7 @@
     
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favico.png" type="image/jpeg">
+    <link rel="shortcut icon" href="img/Recurso4.ico" style="height: 16px; width: 16px;"type="image/icon">
 
     <!--- NORMALIZE -->
     <link rel="stylesheet" href="normalize.css">
@@ -43,10 +43,11 @@
     <!-- BARRA DE NAVEGACIÓN -->
     <header>
         <!-- NAVBAR -->
-        <nav class="navbar fixed-top navbar-expand-md navbar-light bg-white flex-column p-0">
+        <nav class="navbar fixed-top navbar-expand-md navbar-light  flex-column p-0">
         
 
           <!-- NAVBAR ARRIBA -->
+          <div class="container-fluid bg-secundario bg-md-white">
         <div class="container">
         <!--LOGO-->
         <a class="navbar-brand" href="index.html">
@@ -54,20 +55,20 @@
         </a>
         <!--FORM BUSQUEDA-->
         <form class="form-inline d-none d-sm-none d-md-none d-lg-inline">
-        <input class="form-control mr-0" style="height: 32px;" type="search" placeholder="¿Que vino buscas?" aria-label="Search">
+        <input class="form-control mr-0 color-primario" style="height: 32px;" type="search" placeholder="¿Que vino buscas?" aria-label="Search">
         <button class="btn btn-sm bg-primario text-white ml-0" type="submit">Buscar</button>
         </form>
         <!--TOGGLER BTN-->
         <div class>
         <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-img"> <img  src="img/copita.jpg" width="40" height="40" alt="copa"></span> 
+        <span class="navbar-toggler-img"> <img  src="img/copita-toggler.png" width="40" height="40" alt="copa"></span> 
         </button>
         </div>
         
         
           <!--COLLAPSE MENU ITEMS-->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto mb-1 text-center bg-white">
+          <div class="collapse navbar-collapse bg-secundario bg-md-white" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto mb-1 text-center ">
                 <li class="nav-item">
                    <a class="nav-link nav-link2" href="#about-us">Acerca de nosotros<span class="sr-only">(current)</span></a>
                </li>
@@ -80,13 +81,14 @@
                 </ul>
           </div>  
         </div>
-        <hr class="m-0" style="border: 1px solid rgba(0,0,0,0.2); width: 100%;">
+      </div>
+        <hr class="m-0 d-none d-md-block" style="border: 1px solid rgba(215, 68, 63, .9); width: 100%;">
           <!-- NAVBAR BOTTOM - LINKS  ABAJO-->
-        <div class="container-fluid">
+        <div class="container-fluid bg-secundario bg-md-white">
         <div class="collapse navbar-collapse d-md-flex justify-content-md-around" id="navbarSupportedContent">
-        <ul class="navbar-nav m-auto text-center bg-white ">
+        <ul class="navbar-nav m-auto text-center bg-secundario ">
         <li class="nav-item px-4">
-        <a class="nav-link mx-sm-4 active" href="index.html">Inicio</a>
+        <a class="nav-link nav-link1 mx-sm-4 active" href="index.html">Inicio</a>
         </li>
         <li class="nav-item dropdown text-center text-dark px-4">
         <a class="nav-link mx-sm-4 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -102,10 +104,10 @@
         </div>
         </li>
         <li class="nav-item px-4">
-        <a class="nav-link mx-sm-4" href="galeria.html">Galería de bodegas</a>
+        <a class="nav-link nav-link1 mx-sm-4" href="galeria.html">Galería de bodegas</a>
         </li>
         <li class="nav-item px-4">
-        <a class="nav-link mx-sm-4" href="error404.html">Novedades</a>
+        <a class="nav-link nav-link1 mx-sm-4" href="error404.html">Novedades</a>
         </li>
         </ul>
         </div>
@@ -133,7 +135,7 @@
       </div>
         <div id="mycarousel" class="carousel slide" data-ride="carousel">
          <div class="carousel-inner">
-           <div class="carousel-item active d-flex align-self-center">
+           <div class="carousel-item active">
              <img src="img/copa - copia.jpg" class="d-block w-100" alt="copa">
              
            </div>
@@ -157,16 +159,16 @@
       <div class="col-md-9">
           <div class="text-center m-5 ">
           <h1>Conocé las últimas novedades</h1>
-          <br>
+          <hr class="separador">
           <p style="font-size:18px;">Sorprendete todos los meses con lo que nuestro equipo de cata elige para vos</p>
           </div>
   
           <!--- Entradas-->
-          <div class="card-deck" style="height: 100%;">
+          <div class="card-deck">
             <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
                 <div class="card">
                     <figure class="snip1477">
-                        <img src="https://image.freepik.com/foto-gratis/tiro-vertical-primer-bayas-uva-cesta_181624-8070.jpg" alt="sample38" />
+                        <img src="img/entrada3.jpg" alt="sample38" />
                         <div class="title">
                           <div>
                             <h6>La magia de</h6>
@@ -182,7 +184,7 @@
               <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
                 <div class="card">
                     <figure class="snip1477">
-                        <img src="https://image.freepik.com/foto-gratis/primer-plano-vertical-selectivo-foto-mujer-sosteniendo-copa-vino-llena-vino-tinto-oscuro_181624-2017.jpg" alt="sample38" />
+                        <img src="img/entrada2.jpg" alt="sample38" />
                         <div class="title">
                           <div>
                             <h6 class="text-left">Vinos orgánicos en</h6>
@@ -198,7 +200,7 @@
               <div class="col-12 col-sm-6 col-md-4 col-lg-4 ">
                 <div class="card">
                     <figure class="snip1477">
-                        <img src="https://image.freepik.com/foto-gratis/vino-delicioso_144627-20742.jpg" alt="sample38" />
+                        <img src="img/entradas1.jpg" alt="sample38" />
                         <div class="title">
                           <div>
                             <h6>sommelier</h6>
@@ -254,16 +256,7 @@
               </div>
             
       </div>
-  </div>
-  <div class="about">
-    <div class="container-fluid">
-    <div class="Col-12 text-center mt-3 mt-md-4">
-    <h2 class="h2 text-center"> Bodegas, selecciones, cultura y más</h2>
-    <p class="d-none d-sm-none d-md-block" id="galeria"> Los vinos caseros tienen historia, y nosotros te la contamos. Bebé las selecciones que nuestros expertos han hecho y viví la cultura del vino.</p>
-    <a href="error404.html"  class="Entradas">Ver más</a>
-  </div>
-  </div>
-  </div>
+    </div>
     </div>
 
 
@@ -271,6 +264,7 @@
     <!-- GALERIA N 2-->
     <div class="container-fluid">
     <h1 class="text-center my-5" id="textogaleria">CONOCIENDO LAS BODEGAS</h1>
+    
     <div class="row text-center">
       
       <div class=" col-12 col-md-4 col-lg-3" style="margin: 0; padding: 0;">
@@ -448,13 +442,16 @@
     
      
     <!-- ABOUT US -->
-      <div class="my-4 my-lg-5">
-        <div class="container text-center"> 
-          <h2 class="text-center my-3 my-lg-4"> ACERCA DE NOSOTROS</h2>
-        <p class="my-3 my-lg-4">El amor por las buenas cepas y el desarrollo web, nos reunen para darle vida a esta comunidad. Wine Club es nuestro hogar. Bienvenidos.</p>
+      <div class="mb-4 mb-lg-5">
+        <div class="container-fluid text-center bg-secundario py-4"> 
+          <h2 class="text-center mb-3 mb-lg-4 "> ACERCA DE NOSOTROS</h2>
+          <hr class="separador">
+        <p class="my-3 my-lg-4">El amor por las buenas cepas y el desarrollo web, nos reunen para darle vida a esta comunidad.</p>
+        <p>Wine Club es nuestro hogar, Bienvenidos.</p>
       </div>
-      <div class="container-fluid my-5 text-center">
-        <p class="text-center my-3 my-lg-4">DESARROLLADORES:</p>
+      <div class="container-fluid my-5 text-center mt-3 mb-2">
+        <h5 class="text-center my-3 my-lg-4">Fundadores de Wine Club:</h5>
+        <hr class="separador">
         <div class="row">
 
       <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-2">
@@ -524,13 +521,13 @@
     <!-- FOOTER -->
     <footer class="page-footer font-small">  
     <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-left">
+        <div class="container-fluid text-center text-md-left bg-secundario">
   
       <!-- Grid row -->
         <div class="row">
   
         <!-- Grid column -->
-        <div class="col-md-6 col-lg-3 order-md-0 order-lg-0  bg-white mt-md-0 m d-flex justify-content-center align-items-center p-0">
+        <div class="col-md-6 col-lg-3 order-md-0 order-lg-0 mt-md-0 m d-flex justify-content-center align-items-center p-0">
   
           <!-- Content -->
           <img src="img/logo.png" alt="logo" class="img-fluid img-footer">
@@ -539,7 +536,7 @@
         <!-- Grid column -->
     
         <!-- Grid column -->
-        <div class="col-md-12 col-lg-6 order-md-2 order-lg-1 bg-white p-0 py-md-3 d-flex justify-content-center align-items-center justify-content-md-center">
+        <div class="col-md-12 col-lg-6 order-md-2 order-lg-1 p-0 py-md-3 d-flex justify-content-center align-items-center justify-content-md-center">
   
           <div class="social buttons m-4 d-flex d-md-block d-lg-flex">
   
@@ -578,13 +575,13 @@
         <!-- Grid column -->
   
         <!-- Grid column -->
-        <div class="col-md-6 col-lg-3 order-md-1 order-lg-2 order-lg-2 bg-white text-center align-self-center">
+        <div class="col-md-6 col-lg-3 order-md-1 order-lg-2 order-lg-2 text-center align-self-center">
   
           <!-- Content -->
           <div class="m-4  d-flex flex-column justify-content-center">
           <img src="" alt="">
           <h5 class="text-uppercase text-center"><a class="btn" href="#about-us">About Us</a></h5>
-          <p class="d-none d-md-block" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, at eveniet vel animi voluptate ...<br><a href="#about-us">Ver más</a></p>
+          <p class="d-none d-md-block" >El amor por las buenas cepas y el desarrollo web, nos reunen para darle vida a esta comunidad<br><a href="#about-us" style="color: #D7443F;">Ver más</a></p>
            </div>   
         </div>
         <!-- Grid column -->

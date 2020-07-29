@@ -1,7 +1,8 @@
 body {
     font-family: 'Open Sans', 'sans-serif';
-    padding-top: 125px;
+    padding-top: 113px;
 }
+
 
 
 /* PALETA DE COLORES */
@@ -12,31 +13,31 @@ body {
 .color.secundario {
     color: #485058;
 }
+.color-terciario {
+    color: #a6a5a1;
+}
+
 
 .bg-primario {
     background-color: #D7443F;
 }
-.bg.secundario {
-    background-color: #485058;
+.bg-secundario {
+    background-color: #f1ece9;
 }
-
 
 
 
 
 
 /* ESTILOS DEL NAVBAR */
-.nav-link:active {
-    border-bottom: 2px solid #88b2ff;
-}
-.nav-link:hover {
+.nav-link1:hover {
   border-bottom: 2px solid #D7443F;
 }
 
-.nav-link2:hover {
+ul>li>a.nav-link2:hover {
     border-bottom: none;
-    font-weight: 600;
 }
+
 
 .dropdown {
     position: relative;
@@ -168,6 +169,11 @@ body {
 }
 .form-control {
     width: 100%;
+}
+
+.form-control:focus {
+    border-color: 	rgba(215, 68, 63, .5);
+    box-shadow: 0 0 0 0.2rem 	rgba(215, 68, 63, .5);
 }
 /* PÁGINA DE CONTACTO */
 
@@ -461,4 +467,23 @@ ul{
 
 
 
-    U
+    /* ESTILO SEPARADOR */
+    .separador {
+        border: 1px solid rgba(215, 68, 63, .5); 
+        width: 25%; 
+        background-color: linear-gradient(left, #fff, #D7443F, #fff);
+    }
+    .separador::after {
+        position: relative; 
+        top: -12px; 
+        display: inline-block; 
+        width: 36px; 
+        height: 24px; 
+        padding: 0;
+        border: 2px solid red; 
+        border-radius: 24px; 
+        background: red; 
+        color: white; 
+        font-size: 12px; 
+        line-height: 24px; 
+    }
